@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h1>Show User</h1>
-    <p>id: {{ userId }}</p>
+    <h1>ข้อมูลผู้ซื้อ</h1>
+    <p> {{ userId }}</p>
     <p>ชื่อ - นามสกุล {{ user.name }} - {{ user.lastname }}</p>
-    <p>email: {{ user.email }}</p>
-    <p>password: {{ user.password }}</p>
+    <p>Bag Style: {{ user.password }}</p>
+    <p>ราคากระเป๋า: {{ user.email }}</p>
   </div>
 </template>
 <script>
